@@ -10,3 +10,4 @@ defmodule Tollgate.Application do
     Supervisor.start_link(children, strategy: :one_for_one, name: Tollgate.Supervisor)
   end
 end
+
