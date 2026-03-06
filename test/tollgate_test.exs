@@ -96,3 +96,4 @@ defmodule TollgateTest do
     assert {:ok, 0} = Tollgate.check_window(:default_key, limit: 1, window_ms: 10_000)
   end
 end
+
