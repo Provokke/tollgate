@@ -27,4 +27,3 @@ defmodule Tollgate.TokenBucket do
     {min(capacity * 1.0, tokens + elapsed * rate / 1000), now}
   end
 end
-

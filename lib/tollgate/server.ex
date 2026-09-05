@@ -102,4 +102,3 @@ defmodule Tollgate.Server do
 
   defp schedule(_interval), do: :ok
 end
-
